@@ -1,8 +1,8 @@
 ---
 fixtures:
   symlinks:
-    profile: "#{source_dir}"
-    role: site/role
+    profile: "#{source_dir}/../profile"
+    role: "#{source_dir}"
   repositories:
     node_manager:
       repo: https://github.com/puppetlabs/prosvcs-node_manager.git
