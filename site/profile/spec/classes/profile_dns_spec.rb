@@ -9,7 +9,6 @@ describe 'profile::dns' do
         :operatingsystemmajrelease => '7',
       }
     }
-    it { should contain_class('profile::dns') }
     it { is_expected.to compile.with_all_deps }
     it {
       should contain_host('localhost').with({

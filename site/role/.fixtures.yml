@@ -1,7 +1,7 @@
 ---
 fixtures:
   symlinks:
-    profile: "#{source_dir}/../profile"
+    #profile: "#{source_dir}/../profile"
     role: "#{source_dir}"
   repositories:
     node_manager:

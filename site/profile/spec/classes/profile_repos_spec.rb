@@ -9,7 +9,6 @@ describe 'profile::repos' do
         :operatingsystemmajrelease => '7',
       }
     }
-    it { should contain_class('profile::repos') }
     it { is_expected.to compile.with_all_deps }
   end
 end

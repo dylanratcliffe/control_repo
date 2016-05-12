@@ -3,5 +3,7 @@ vendor
 Gemfile.lock
 site/profile/spec/fixtures/modules
 site/profile/spec/fixtures/manifests
+site/profile/Gemfile.lock
 site/role/spec/fixtures/modules
 site/role/spec/fixtures/manifests
+site/role/spec/Gemfile.lock

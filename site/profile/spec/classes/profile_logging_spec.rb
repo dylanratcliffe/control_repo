@@ -9,7 +9,6 @@ describe 'profile::logging' do
         :operatingsystemmajrelease => '7',
       }
     }
-    it { should contain_class('profile::logging') }
     it { is_expected.to compile.with_all_deps }
 
     it {
@@ -30,7 +29,6 @@ describe 'profile::logging' do
         :operatingsystemmajrelease => '7',
       }
     }
-    #it { should contain_class('profile::logging') }
     it { is_expected.to compile.with_all_deps }
   end
 end
