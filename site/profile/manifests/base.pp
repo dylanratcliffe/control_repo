@@ -47,7 +47,7 @@ class profile::base {
         ensure => directory,
         owner  => 'root',
         group  => 'root',
-        mode   => '0777',
+        mode   => '0700',
       }
 
       # repo management
