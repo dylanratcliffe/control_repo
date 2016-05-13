@@ -48,7 +48,7 @@ profile::ssh::options_hash:
   Port: 22
   AcceptEnv: 'LANG LC_*'
   ChallengeResponseAuthentication: no
-  PermitRootLogin: yes
+  PermitRootLogin: no
   PrintMotd: no
   Subsystem: 'sftp /usr/libexec/openssh/sftp-server'
   UsePAM: yes
