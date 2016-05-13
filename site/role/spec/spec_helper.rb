@@ -16,5 +16,7 @@ RSpec.configure do |c|
     Facter::Util::Loader.any_instance.stubs(:load_all)
     Facter.clear
     Facter.clear_messages
+    #Puppet::Util::Log.level = :debug
+    #Puppet::Util::Log.newdestination(:console)
   end
 end

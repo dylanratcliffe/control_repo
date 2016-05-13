@@ -6,7 +6,7 @@ shared_examples_for 'test_linux' do
       should contain_package('openssh-server')
     }
     it {
-      should contain_file('/etc/ssh/sshd_config').with_content(/^PermitRootLogin\s*yes$/)
+      should contain_concat__fragment('global config').with_content(/^\s*PermitRootLogin\s*yes$/)
     }
   end
 end
