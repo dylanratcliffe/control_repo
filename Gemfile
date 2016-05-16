@@ -9,5 +9,5 @@ group :test do
   gem "metadata-json-lint"
   gem "simplecov"
   gem "simplecov-console"
-  gem "onceover"
+  gem "onceover", '>=3.0.5'
 end
