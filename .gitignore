@@ -7,3 +7,4 @@ site/profile/Gemfile.lock
 site/role/spec/fixtures/modules
 site/role/spec/fixtures/manifests
 site/role/spec/Gemfile.lock
+.onceover
